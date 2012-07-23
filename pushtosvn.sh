@@ -15,5 +15,3 @@ git svn dcommit || die "failed to update SVN repository"
 git branch -f svn/master master
 git checkout "${HEAD#refs/heads/}"
 git branch -D svn/tmp
-
-
